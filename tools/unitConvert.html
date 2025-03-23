@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Unit Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/unitConvert.css" />
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  </head>
+  <body>
+    <header>
+      <h1>Unit Converter</h1>
+    </header>
+    <main>
+      <form id="converterForm" onsubmit="return false;">
+        <label for="inputValue">Value:</label>
+        <input type="number" id="inputValue" placeholder="Enter value" />
+        <label for="conversionType">Convert:</label>
+        <select id="conversionType">
+          <option value="mToFt">Meters to Feet</option>
+          <option value="ftToM">Feet to Meters</option>
+          <option value="kmToMi">Kilometers to Miles</option>
+          <option value="miToKm">Miles to Kilometers</option>
+          <option value="cToF">Celsius to Fahrenheit</option>
+          <option value="fToC">Fahrenheit to Celsius</option>
+          <option value="kgToLb">Kilograms to Pounds</option>
+          <option value="lbToKg">Pounds to Kilograms</option>
+          <option value="cmToIn">Centimeters to Inches</option>
+          <option value="inToCm">Inches to Centimeters</option>
+          <option value="lToGal">Liters to Gallons</option>
+          <option value="galToL">Gallons to Liters</option>
+          <option value="ydToM">Yards to Meters</option>
+          <option value="mToYd">Meters to Yards</option>
+          <option value="m2ToFt2">Square Meters to Square Feet</option>
+          <option value="ft2ToM2">Square Feet to Square Meters</option>
+          <option value="m3ToFt3">Cubic Meters to Cubic Feet</option>
+          <option value="ft3ToM3">Cubic Feet to Cubic Meters</option>
+          <option value="kToC">Kelvin to Celsius</option>
+          <option value="cToK">Celsius to Kelvin</option>
+          <option value="gToOz">Grams to Ounces</option>
+          <option value="ozToG">Ounces to Grams</option>
+        </select>
+        <button type="button" onclick="convertUnits()">Convert</button>
+      </form>
+      <textarea id="result" placeholder="Result..." readonly></textarea>
+    </main>
+    <footer>
+      <p>&copy; 2025 GsDistance</p>
+      <a id="returnLink" href="../index.html">Go back</a>
+    </footer>
+    <script src="../js/unitConvert.js" async defer></script>
+  </body>
+</html>

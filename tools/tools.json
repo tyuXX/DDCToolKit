@@ -11,7 +11,7 @@
     },
     {
         "name": "Unit Converter",
-        "description": "Converts between different units of measurement.",
+        "description": "Converts between different units of measurement. Such as length, weight, volume, area, temperature, and more.",
         "path": "unitConvert.html"
     },
     {
