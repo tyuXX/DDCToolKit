@@ -1,6 +1,6 @@
 const tools = document.getElementById("tools");
 
-fetch("../tools/tools.json")
+fetch("./tools/tools.json")
   .then((response) => response.json())
   .then((data) => {
     data.forEach((tool) => {
