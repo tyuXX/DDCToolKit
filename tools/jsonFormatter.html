@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>JSON Formatter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/jsonFormatter.css" />
+  </head>
+  <body>
+    <header>
+      <h1>JSON Formatter</h1>
+    </header>
+    <main>
+      <textarea id="inputText" placeholder="Paste JSON here..."></textarea>
+      <div class="button-container">
+        <button onclick="formatJson()">Format JSON</button>
+      </div>
+      <textarea id="outputText" placeholder="Formatted JSON..." readonly></textarea>
+    </main>
+    <footer>
+      <p>&copy; 2025 GsDistance</p>
+      <a id="returnLink" href="../index.html">Go back</a>
+    </footer>
+    <script src="../js/jsonFormatter.js" async defer></script>
+  </body>
+</html>

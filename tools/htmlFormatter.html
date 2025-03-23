@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HTML Formatter & Previewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/htmlFormatter.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HTML Formatter & Previewer</h1>
+    </header>
+    <main>
+      <textarea id="inputText" placeholder="Paste HTML here..."></textarea>
+      <div class="button-container">
+        <button onclick="formatHtml()">Format HTML</button>
+        <button onclick="previewHtml()">Preview HTML</button>
+      </div>
+      <textarea id="outputText" placeholder="Formatted HTML..." readonly></textarea>
+      <div id="previewContainer">
+        <h2>Preview</h2>
+        <iframe id="previewFrame"></iframe>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 GsDistance</p>
+      <a id="returnLink" href="../index.html">Go back</a>
+    </footer>
+    <script src="../js/htmlFormatter.js" async defer></script>
+  </body>
+</html>

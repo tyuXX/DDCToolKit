@@ -23,5 +23,15 @@
         "name":"Svg To PNG",
         "description":"Converts SVG to PNG.",
         "path":"svgToPng.html"
+    },
+    {
+        "name":"JSON Formatter",
+        "description":"Prettifies JSON.",
+        "path":"jsonFormatter.html"
+    },
+    {
+        "name":"HTML Formatter & Previewer",
+        "description":"Prettifies HTML and shows a preview.",
+        "path":"htmlFormatter.html"
     }
 ]
