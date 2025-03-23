@@ -1,0 +1,12 @@
+@import url("styles.css");  /* Base styles and variables */
+@import url("toolstyles.css");  /* Tool-specific styles */
+
+main {
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border: 2px solid var(--accent-color);
+    border-radius: 4px;
+    line-height: 1.6;
+}

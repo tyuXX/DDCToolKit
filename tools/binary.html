@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- ...existing meta tags... -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Binary Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/binary.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Binary Converter</h1>
+    </header>
+    <main>
+      <section id="textSection">
+        <h2>Text Converter</h2>
+        <textarea id="textInput" placeholder="Enter text here..."></textarea>
+        <div class="button-container">
+          <button onclick="textToBinary()">Text to Binary</button>
+          <button onclick="binaryToText()">Binary to Text</button>
+        </div>
+        <textarea id="textOutput" placeholder="Result..." readonly></textarea>
+      </section>
+      <section id="decimalSection">
+        <h2>Decimal Converter</h2>
+        <textarea id="decimalInput" placeholder="Enter number here..."></textarea>
+        <div class="button-container">
+          <button onclick="decimalToBinary()">Decimal to Binary</button>
+          <button onclick="binaryToDecimal()">Binary to Decimal</button>
+        </div>
+        <textarea id="decimalOutput" placeholder="Result..." readonly></textarea>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 GsDistance</p>
+      <a id="returnLink" href="../index.html">Go back</a>
+    </footer>
+    <script src="../js/binary.js" async defer></script>
+  </body>
+</html>

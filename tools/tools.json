@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Binary Converter",
+        "description": "Converts text to binary and binary to text. Also supports binary to decimal and decimal to binary.",
+        "path": "binary.html"
+    },
+    {
+        "name": "Base64 Encoder/Decoder",
+        "description": "Encodes and decodes text using base64.",
+        "path": "base64.html"
+    },
+    {
+        "name": "Unit Converter",
+        "description": "Converts between different units of measurement.",
+        "path": "unitConvert.html"
+    },
+    {
+        "name": "Password Generator",
+        "description": "Generates a random password based on user input.",
+        "path": "password.html"
+    },
+    {
+        "name":"Svg To PNG",
+        "description":"Converts SVG to PNG.",
+        "path":"svgToPng.html"
+    }
+]

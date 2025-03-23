@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- ...existing meta tags... -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>SVG to PNG Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/svgToPng.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SVG to PNG Converter</h1>
+    </header>
+    <main>
+      <textarea id="svgInput" placeholder="Paste SVG code here..."></textarea>
+      <div class="button-container">
+        <button onclick="convertSvgToPng()">Convert to PNG</button>
+      </div>
+      <!-- Custom size option -->
+      <div class="custom-size">
+        <label>
+          <input type="checkbox" id="customSizeCheckbox" />
+          Use custom size
+        </label>
+        <div id="customSizeInputs" style="display: none; margin-top: 0.5rem;">
+          <label>Width: <input type="number" id="customWidth" placeholder="Width" /></label>
+          <label>Height: <input type="number" id="customHeight" placeholder="Height" /></label>
+        </div>
+      </div>
+      <img id="preview" alt="PNG Preview" />
+      <div class="button-container">
+        <a id="downloadLink" href="#" download="converted.png">Download PNG</a>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 GsDistance</p>
+      <a id="returnLink" href="../index.html">Go back</a>
+    </footer>
+    <script>
+      // Toggle custom size inputs visibility
+      document.getElementById("customSizeCheckbox").addEventListener("change", function () {
+        document.getElementById("customSizeInputs").style.display = this.checked ? "block" : "none";
+      });
+    </script>
+    <script src="../js/svgToPng.js" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+@import url("styles.css");  /* Base styles and variables */
+
+header, footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+#returnLink {
+    color: var(--accent-color);
+    text-decoration: none;
+}
