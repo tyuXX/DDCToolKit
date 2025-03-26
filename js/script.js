@@ -1,4 +1,5 @@
 const tools = document.getElementById("tools");
+let toolCount = 0;
 
 fetch("./tools/tools.json")
   .then((response) => response.json())
@@ -21,7 +22,9 @@ fetch("./tools/tools.json")
             </div>
         `;
       }
+      toolCount++;
     });
+    document.getElementById("toolCount").textContent = toolCount;
   });
 
 function toggleSidebar(button) {
