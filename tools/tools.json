@@ -89,5 +89,12 @@
     "path": "absolutepath:https://tyuxx.gsdistance.org/MDRender/",
     "icon": "",
     "version": "External"
+  },
+  {
+    "name": "Compress & Decompress Text",
+    "description": "Compresses and decompresses text and text from files using Lz-String.",
+    "path": "compressText.html",
+    "icon": "",
+    "version": "1.1"
   }
 ]

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Compress & Decompress Text</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/compressText.css" />
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  </head>
+  <body>
+    <header>
+      <h1>Compress & Decompress Text</h1>
+    </header>
+    <main>
+      <div class="button-container">
+        <input type="file" id="fileInput" accept="text/*" onchange="loadFile(event)" />
+      </div>
+      <textarea id="inputText" placeholder="Enter text here..."></textarea>
+      <div class="button-container">
+        <button onclick="compressText()">Compress</button>
+        <button onclick="decompressText()">Decompress</button>
+      </div>
+      <textarea id="outputText" placeholder="Result..." readonly></textarea>
+    </main>
+    <footer>
+      <p>&copy; 2025 GsDistance</p>
+      <a id="returnLink" href="../index.html">Go back</a>
+    </footer>
+    <script type="module" src="../js/compressText.js" async defer></script>
+  </body>
+</html>
