@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- ...existing meta tags... -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>General Pretty Printer & Minifier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/prettyPrinter.css" />
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  </head>
+  <body>
+    <header>
+      <h1>General Pretty Printer & Minifier</h1>
+    </header>
+    <main>
+      <textarea id="inputText" placeholder="Paste code here..."></textarea>
+      <div class="button-container">
+        <select id="formatSelector">
+          <option value="json">JSON</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="xml">XML</option>
+        </select>
+      </div>
+      <div class="button-container">
+        <button onclick="formatCode()">Format</button>
+        <button onclick="minifyCode()">Minify</button>
+      </div>
+      <textarea id="outputText" placeholder="Output here..." readonly></textarea>
+    </main>
+    <footer>
+      <p>&copy; 2025 GsDistance</p>
+      <a id="returnLink" href="../index.html">Go back</a>
+    </footer>
+    <script src="../js/prettyPrinter.js" async defer></script>
+  </body>
+</html>

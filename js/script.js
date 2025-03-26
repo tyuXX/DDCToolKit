@@ -4,13 +4,23 @@ fetch("./tools/tools.json")
   .then((response) => response.json())
   .then((data) => {
     data.forEach((tool) => {
-      tools.innerHTML += `
+      if (tool.path.startsWith("absolutepath:")) {
+        tools.innerHTML += `
+        <div class="tool">
+            <h2>${tool.name}</h2>
+            <p>${tool.description}</p>
+            <a href="${tool.path.replace("absolutepath:","")}">Open</a>
+        </div>
+    `;
+      } else {
+        tools.innerHTML += `
             <div class="tool">
                 <h2>${tool.name}</h2>
                 <p>${tool.description}</p>
-                <a href="tools/${tool.path}">Open</a>
+                <a href="tools/${tool.path}">Open</a> <label class="versionLabel">v${tool.version}</label>
             </div>
         `;
+      }
     });
   });
 

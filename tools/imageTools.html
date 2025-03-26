@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Image Tools</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/imageTools.css" />
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  </head>
+  <body>
+    <header>
+      <h1>Image Tools</h1>
+    </header>
+    <main>
+      <section>
+        <!-- Image file input and canvas preview -->
+        <input type="file" id="imageInput" accept="image/*" />
+        <canvas id="imageCanvas"></canvas>
+      </section>
+      <section>
+        <!-- Basic image manipulations -->
+        <button onclick="rotateImage()">Rotate 90°</button>
+        <button onclick="convertToGrayscale()">Grayscale</button>
+      </section>
+      <section>
+        <!-- Resize tool -->
+        <h2>Resize</h2>
+        <input type="number" id="resizeWidth" placeholder="Width" />
+        <input type="number" id="resizeHeight" placeholder="Height" />
+        <button onclick="resizeImage()">Resize</button>
+      </section>
+      <section>
+        <!-- Crop tool -->
+        <h2>Crop</h2>
+        <input type="number" id="cropX" placeholder="X" />
+        <input type="number" id="cropY" placeholder="Y" />
+        <input type="number" id="cropWidth" placeholder="Width" />
+        <input type="number" id="cropHeight" placeholder="Height" />
+        <button onclick="cropImage()">Crop</button>
+      </section>
+      <section>
+        <!-- Color picker -->
+        <p>Click on image for color picker</p>
+        <p id="pickedColor"></p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 GsDistance</p>
+      <a id="returnLink" href="../index.html">Go back</a>
+    </footer>
+    <script src="../js/imageTools.js" async defer></script>
+  </body>
+</html>

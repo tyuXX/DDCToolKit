@@ -90,3 +90,11 @@ body {
     cursor: pointer;
     z-index: 1;
 }
+
+.versionLabel {
+    color: var(--accent-color);
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 2px;
+    border-radius: 3px;
+}

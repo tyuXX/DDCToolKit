@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- ...existing meta tags... -->
+    <title>Hex Color Picker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/hexColorPicker.css" />
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  </head>
+  <body>
+    <header>
+      <h1>Hex Color Picker</h1>
+    </header>
+    <main>
+      <section>
+        <!-- Color preview and custom slider picker -->
+        <div id="colorPreview"></div>
+        <div class="sliders">
+          <label>R:
+            <input type="range" id="redSlider" min="0" max="255" value="0" />
+          </label>
+          <label>G:
+            <input type="range" id="greenSlider" min="0" max="255" value="0" />
+          </label>
+          <label>B:
+            <input type="range" id="blueSlider" min="0" max="255" value="0" />
+          </label>
+        </div>
+        <p id="hexValue">Hex Value: #000000</p>
+        <p id="rgbValue">RGB: 0, 0, 0</p>
+        <button onclick="copyHex()">Copy Hex</button>
+      </section>
+    </main>
+    <footer>
+      <!-- ...existing footer... -->
+      <p>&copy; 2025 GsDistance</p>
+      <a id="returnLink" href="../index.html">Go back</a>
+    </footer>
+    <script src="../js/hexColorPicker.js" async defer></script>
+  </body>
+</html>

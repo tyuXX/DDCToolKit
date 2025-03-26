@@ -1,37 +1,93 @@
 [
-    {
-        "name": "Binary Converter",
-        "description": "Converts text to binary and binary to text. Also supports binary to decimal and decimal to binary.",
-        "path": "binary.html"
-    },
-    {
-        "name": "Base64 Encoder/Decoder",
-        "description": "Encodes and decodes text using base64.",
-        "path": "base64.html"
-    },
-    {
-        "name": "Unit Converter",
-        "description": "Converts between different units of measurement. Such as length, weight, volume, area, temperature, and more.",
-        "path": "unitConvert.html"
-    },
-    {
-        "name": "Password Generator",
-        "description": "Generates a random password based on user input.",
-        "path": "password.html"
-    },
-    {
-        "name":"Svg To PNG",
-        "description":"Converts SVG to PNG.",
-        "path":"svgToPng.html"
-    },
-    {
-        "name":"JSON Formatter",
-        "description":"Prettifies JSON.",
-        "path":"jsonFormatter.html"
-    },
-    {
-        "name":"HTML Formatter & Previewer",
-        "description":"Prettifies HTML and shows a preview.",
-        "path":"htmlFormatter.html"
-    }
+  {
+    "name": "Binary Converter",
+    "description": "Converts text to binary and binary to text. Also supports binary to decimal and decimal to binary.",
+    "path": "binary.html",
+    "icon": "",
+    "version": "1.0"
+  },
+  {
+    "name": "Base64 Encoder/Decoder",
+    "description": "Encodes and decodes text using base64.",
+    "path": "base64.html",
+    "icon": "",
+    "version": "1.0"
+  },
+  {
+    "name": "Unit Converter",
+    "description": "Converts between different units of measurement. Such as length, weight, volume, area, temperature, and more.",
+    "path": "unitConvert.html",
+    "icon": "",
+    "version": "1.2"
+  },
+  {
+    "name": "Password Generator",
+    "description": "Generates a random password based on user input.",
+    "path": "password.html",
+    "icon": "",
+    "version": "1.0"
+  },
+  {
+    "name": "Svg To PNG",
+    "description": "Converts SVG to PNG.",
+    "path": "svgToPng.html",
+    "icon": "",
+    "version": "1.0"
+  },
+  {
+    "name": "HTML Formatter & Previewer",
+    "description": "Prettifies HTML and shows a preview.",
+    "path": "htmlFormatter.html",
+    "icon": "",
+    "version": "1.0"
+  },
+  {
+    "name": "QR Code Generator & Reader (NYI)",
+    "description": "Generates and reads QR codes.",
+    "path": "qrCode.html",
+    "icon": "",
+    "version": "1.0"
+  },
+  {
+    "name": "URL Encoder/Decoder (NYI)",
+    "description": "Encodes and decodes URLs. Such as images to base64.",
+    "path": "urlEncoderDecoder.html",
+    "icon": "",
+    "version": "1.0"
+  },
+  {
+    "name": "General Pretty Printer & Minifier",
+    "description": "Prettifies and minifies file formats such as XML, CSS, JavaScript, and more.",
+    "path": "prettyPrinter.html",
+    "icon": "",
+    "version": "1.1"
+  },
+  {
+    "name": "Image Tools",
+    "description": "Tools for working with images. Such as resizing, cropping, and converting, color picker, rotating, and more.",
+    "path": "imageTools.html",
+    "icon": "",
+    "version": "1.0"
+  },
+  {
+    "name": "Simple Notepad (NYI)",
+    "description": "A simple notepad for taking notes.",
+    "path": "notepad.html",
+    "icon": "",
+    "version": "1.0"
+  },
+  {
+    "name": "Hex Color Picker",
+    "description": "A simple hex color picker.",
+    "path": "hexColorPicker.html",
+    "icon": "",
+    "version": "1.0"
+  },
+  {
+    "name": "Markdown Previewer",
+    "description": "A simple markdown previewer.",
+    "path": "absolutepath:https://tyuxx.gsdistance.org/MDRender/",
+    "icon": "",
+    "version": "External"
+  }
 ]
