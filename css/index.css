@@ -1,0 +1,68 @@
+@import url("styles.css"); /* Base styles and variables */
+
+#sidebar-toggle {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: var(--accent-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.versionLabel {
+  color: var(--accent-color);
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 2px;
+  border-radius: 3px;
+}
+
+#header {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+#tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.tool {
+  background-color: var(--secondary-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+  padding: 1rem;
+}
+.tool a {
+  color: var(--accent-color);
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 2px;
+  border-radius: 3px;
+}
+#footer {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
+
+#search {
+    width: 50%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid var(--accent-color);
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
