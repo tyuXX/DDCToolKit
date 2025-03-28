@@ -44,14 +44,14 @@
   {
     "name": "QR Code Generator & Reader (NYI)",
     "description": "Generates and reads QR codes.",
-    "path": "qrCode.html",
+    "path": "absolutepath:../nyi.html",
     "icon": "",
     "version": "1.0"
   },
   {
     "name": "URL Encoder/Decoder (NYI)",
     "description": "Encodes and decodes URLs. Such as images to base64.",
-    "path": "urlEncoderDecoder.html",
+    "path": "absolutepath:../nyi.html",
     "icon": "",
     "version": "1.0"
   },
@@ -72,9 +72,9 @@
   {
     "name": "Simple Notepad (NYI)",
     "description": "A simple notepad for taking notes.",
-    "path": "notepad.html",
+    "path": "absolutepath:../nyi.html",
     "icon": "",
-    "version": "1.0"
+    "version": "External"
   },
   {
     "name": "Hex Color Picker",
