@@ -4,97 +4,127 @@
     "description": "Converts text to binary and binary to text. Also supports binary to decimal and decimal to binary.",
     "path": "binary.html",
     "icon": "",
-    "version": "1.0"
+    "version": "1.0",
+    "id": "binaryConverter"
   },
   {
     "name": "Base64 Encoder/Decoder",
     "description": "Encodes and decodes text using base64.",
     "path": "base64.html",
     "icon": "",
-    "version": "1.0"
+    "version": "1.0",
+    "id": "base64EncoderDecoder"
   },
   {
     "name": "Unit Converter",
     "description": "Converts between different units of measurement. Such as length, weight, volume, area, temperature, and more.",
     "path": "unitConvert.html",
     "icon": "",
-    "version": "1.2"
+    "version": "1.2",
+    "id": "unitConverter"
   },
   {
     "name": "Password Generator",
     "description": "Generates a random password based on user input.",
     "path": "password.html",
     "icon": "",
-    "version": "1.0"
+    "version": "1.0",
+    "id": "passwordGenerator"
   },
   {
     "name": "Svg To PNG",
     "description": "Converts SVG to PNG.",
     "path": "svgToPng.html",
     "icon": "",
-    "version": "1.0"
+    "version": "1.0",
+    "id": "svgToPng"
   },
   {
     "name": "HTML Formatter & Previewer",
     "description": "Prettifies HTML and shows a preview.",
     "path": "htmlFormatter.html",
     "icon": "",
-    "version": "1.0"
+    "version": "1.0",
+    "id": "htmlFormatterPreviewer"
   },
   {
     "name": "QR Code Generator & Reader (NYI)",
     "description": "Generates and reads QR codes.",
     "path": "absolutepath:../nyi.html",
     "icon": "",
-    "version": "1.0"
+    "version": "1.0",
+    "id": "qrCodeGeneratorReader"
   },
   {
     "name": "URL Encoder/Decoder (NYI)",
     "description": "Encodes and decodes URLs. Such as images to base64.",
     "path": "absolutepath:../nyi.html",
     "icon": "",
-    "version": "1.0"
+    "version": "1.0",
+    "id": "urlEncoderDecoder"
   },
   {
     "name": "General Pretty Printer & Minifier",
     "description": "Prettifies and minifies file formats such as XML, CSS, JavaScript, and more.",
     "path": "prettyPrinter.html",
     "icon": "",
-    "version": "1.1"
+    "version": "1.2",
+    "id": "prettyPrinterMinifier"
   },
   {
     "name": "Image Tools",
     "description": "Tools for working with images. Such as resizing, cropping, and converting, color picker, rotating, and more.",
     "path": "imageTools.html",
     "icon": "",
-    "version": "1.0"
+    "version": "1.0",
+    "id": "imageTools"
   },
   {
     "name": "Simple Notepad (NYI)",
     "description": "A simple notepad for taking notes.",
     "path": "absolutepath:../nyi.html",
     "icon": "",
-    "version": "External"
+    "version": "External",
+    "id": "simpleNotepad"
   },
   {
     "name": "Hex Color Picker",
     "description": "A simple hex color picker.",
     "path": "hexColorPicker.html",
     "icon": "",
-    "version": "1.0"
+    "version": "1.0",
+    "id": "hexColorPicker"
   },
   {
     "name": "Markdown Previewer",
     "description": "A simple markdown previewer.",
     "path": "absolutepath:https://tyuxx.gsdistance.org/MDRender/",
     "icon": "",
-    "version": "External"
+    "version": "External",
+    "id": "markdownPreviewer"
   },
   {
     "name": "Compress & Decompress Text",
     "description": "Compresses and decompresses text and text from files using Lz-String.",
     "path": "compressText.html",
     "icon": "",
-    "version": "1.1"
+    "version": "1.1",
+    "id": "compressDecompressText"
+  },
+  {
+    "name": "Text Tools",
+    "description": "Tools for working with text. Such as Character Counter, Word Counter, Macro Applier, Text Comparer and more.",
+    "path": "textTools.html",
+    "icon": "",
+    "version": "1.0",
+    "id": "textTools"
+  },
+  {
+    "name":"Scientific Calculator",
+    "description":"An all around use calculator. Supports basic and advanced calculations.",
+    "path":"calculator.html",
+    "icon":"",
+    "version":"1.0",
+    "id":"scientificCalculator"
   }
 ]
